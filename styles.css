@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    position: fixed; /* Make the navigation stick to the viewport */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 100vh; /* Set to the viewport height */
+    overflow-y: auto; /* Added overflow-y to enable scrolling if content exceeds height */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    height:100px;
+    width:100px
+}
+.content {
+    margin-left: 230px;
+    padding: 30;
+}
+
+.quiz {
+    margin-bottom: 20px;
+}
+
+.answer {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
+
+
+.caption{
+    font-size: 10px;
+}
