@@ -19,7 +19,7 @@ header {
 /* For Mobile */
 @media screen and (max-width: 540px) {
     nav {
-        width: 100%;
+        width: 50%;
         background-color: #f2f2f2;
         padding: 20px;
         height:100px;
@@ -32,7 +32,7 @@ header {
         width: 100%;
         background-color: #f2f2f2;
         padding: 20px;
-        height:400px;
+        height:300vh;
     }
 }
 
