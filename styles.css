@@ -12,14 +12,12 @@ header {
 }
 
 nav {
-    position: fixed; /* Make the navigation stick to the viewport */
-    top: 0; /* Position it at the top of the viewport */
-    left: 0; /* Position it at the left of the viewport */
+    float: left;
     width: 200px;
     background-color: #f2f2f2;
     padding: 20px;
-    height: 100vh; /* Set to the viewport height */
-    overflow-y: auto; /* Added overflow-y to enable scrolling if content exceeds height */
+    height: 100vh;
+    overflow-y: auto;
 }
 
 nav ul {
